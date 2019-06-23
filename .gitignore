@@ -24,5 +24,9 @@ target/
 Thumbs.db
 *.lnk
 
+
+*.class
+out/
+
 # OSX
 .DS_Store

@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Flip",
+            "request": "launch",
+            "mainClass": "Arrays.Flip",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubsetSum",
+            "request": "launch",
+            "mainClass": "Arrays.SubsetSum",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NextPermutation",
+            "request": "launch",
+            "mainClass": "Arrays.NextPermutation",
+            "projectName": "Programming_f96737e3"
+        }
+    ]
+}
