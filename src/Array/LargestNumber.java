@@ -1,4 +1,4 @@
-package Arrays;/*package whatever //do not write package name here */
+package Array;/*package whatever //do not write package name here */
 
 import java.util.List;
 import java.util.ArrayList;

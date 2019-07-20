@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 
 // Definition for an interval.

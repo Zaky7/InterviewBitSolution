@@ -1,6 +1,6 @@
-package Arrays;
+package Array;
 
-import Sorting.QuickSort;
+import Algorithm.Sorting.QuickSort;
 
 import java.util.ArrayList;
 import java.util.Arrays;

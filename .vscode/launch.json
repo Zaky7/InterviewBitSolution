@@ -2,6 +2,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NumLessThanK",
+            "request": "launch",
+            "mainClass": "Maths.NumLessThanK",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GraphPractice",
+            "request": "launch",
+            "mainClass": "DataStructure.Graphs.GraphPractice",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GraphPractice",
+            "request": "launch",
+            "mainClass": "DataStructure.Graph.GraphPractice",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Graph",
+            "request": "launch",
+            "mainClass": "DataStructure.Graph.Graph",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniqueGrid",
+            "request": "launch",
+            "mainClass": "Maths.UniqueGrid",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Trie",
+            "request": "launch",
+            "mainClass": "DataStructure.Trie.Trie",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PallindromePairs",
+            "request": "launch",
+            "mainClass": "Arrays.PallindromePairs",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateMatrix",
+            "request": "launch",
+            "mainClass": "Arrays.RotateMatrix",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstMissingInteger",
+            "request": "launch",
+            "mainClass": "Arrays.FirstMissingInteger",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Flip",
             "request": "launch",
             "mainClass": "Arrays.Flip",
