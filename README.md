@@ -3,25 +3,25 @@
 Solutions to the InterviewBit problems in Java
 
 ## Programming
-* [Bit Manipulation](https://github.com/architsingla13/InterviewBit-Solutions#bitmanipulation)
-* [Array](https://github.com/architsingla13/InterviewBit-Solutions#array)
-* [String](https://github.com/architsingla13/InterviewBit-Solutions#string)
-* [Linked List](https://github.com/architsingla13/InterviewBit-Solutions#linkedlist)
-* [Stack](https://github.com/architsingla13/InterviewBit-Solutions#stack)
-* [Queue](https://github.com/architsingla13/InterviewBit-Solutions#queue)
-* [Heap](https://github.com/architsingla13/InterviewBit-Solutions#heaps)
-* [Trees](https://github.com/architsingla13/InterviewBit-Solutions#trees)
-* [Hash Map](https://github.com/architsingla13/InterviewBit-Solutions#hashmap)
-* [Hashing](https://github.com/architsingla13/InterviewBit-Solutions#hashing)
-* [Math](https://github.com/architsingla13/InterviewBit-Solutions#math)
-* [Two Pointers](https://github.com/architsingla13/InterviewBit-Solutions#twopointers)
+* [Bit Manipulation](https://github.com/Zaky7/InterviewBitSolution#bitmanipulation)
+* [Array](https://github.com/Zaky7/InterviewBitSolution#array)
+* [String](https://github.com/Zaky7/InterviewBitSolution#string)
+* [Linked List](https://github.com/Zaky7/InterviewBitSolution#linkedlist)
+* [Stack](https://github.com/Zaky7/InterviewBitSolution#stack)
+* [Queue](https://github.com/Zaky7/InterviewBitSolution#queue)
+* [Heap](https://github.com/Zaky7/InterviewBitSolution#heaps)
+* [Trees](https://github.com/Zaky7/InterviewBitSolution#trees)
+* [Hash Map](https://github.com/Zaky7/InterviewBitSolution#hashmap)
+* [Hashing](https://github.com/Zaky7/InterviewBitSolution#hashing)
+* [Math](https://github.com/Zaky7/InterviewBitSolution#math)
+* [Two Pointers](https://github.com/Zaky7/InterviewBitSolution#twopointers)
 * Sort
 * Recursion
-* [Binary Search](https://github.com/architsingla13/InterviewBit-Solutions#binarysearch)
+* [Binary Search](https://github.com/Zaky7/InterviewBitSolution#binarysearch)
 * Binary Search Tree
 * Breadth-First Search
 * Depth-First Search
-* [Backtracking](https://github.com/architsingla13/InterviewBit-Solutions#backtracking)
+* [Backtracking](https://github.com/Zaky7/InterviewBitSolution#backtracking)
 * Dynamic Programming
 * Greedy
 * Graph
@@ -61,7 +61,7 @@ Solutions to the InterviewBit problems in Java
 |23| [Next Permutation](https://www.interviewbit.com/problems/next-permutation/)      | [Java](./Programming/Array/NextPerm.java)  | _O(nlogn)_(only if already highest perm, else O(n + logn))         | _O(1)_          | Medium         |  Good Question, Analyse diff examples, Bookmarked|
 |24| [Find Permutation](https://www.interviewbit.com/problems/find-permutation/)      | [Java](./Programming/Array/FindPerm.java)  | _O(n)_         | _O(1)_          | Medium         |  Good Question, Bookmarked|
 |25| [Set Matrix Zeros](https://www.interviewbit.com/problems/set-matrix-zeros/)      | [Java](./Programming/Array/SetMatrix0.java)  | _O(n*m)_         | _O(1)_          | Medium         |  Good Question|
-|26| [First Missing Integer](https://www.interviewbit.com/problems/first-missing-integer/)      | [Java](./Programming/Array/FirstMissingInteger.java)  | _O(n)_         | _O(1)_          | Medium         |  Good Question, Bookmarked|
+|26| [First Missing Integer](https://www.interviewbit.com/problems/first-missing-integer/)      | [Java](./src/Array/FirstMissingInteger.java)  | _O(n)_         | _O(1)_          | Medium         |  Good Question, Bookmarked|
 |27| [Merge Overlapping Intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/)      | [Java](./Programming/Array/MergeOverlappingIntervals.java)  | _O(nlogn)_         | _O(1)_          | Medium         |  Good Question, Bookmarked|
 |28| [Merge Intervals](https://www.interviewbit.com/problems/merge-intervals/)      | [Java](./Programming/Array/MergeIntervals.java)  | _O(n)_         | _O(1)_          | Medium         |  Good Question, Good Edge Cases|
 |29| [N/3 Repeat Number](https://www.interviewbit.com/problems/n3-repeat-number/)      | [Java](./Programming/Array/Nby3Repeat.java)  | _O(n)_         | _O(1)_          | Medium         |  Good Question, Moore's Voting Algo|
