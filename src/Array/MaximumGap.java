@@ -98,8 +98,55 @@ public class MaximumGap {
     }
 
 
+    public int maximumGapNew(final List<Integer> A) {
+        int N = A.size();
+        
+        // Find the min and max Element from the Array
+        int MIN_VALUE = Integer.MAX_VALUE;
+        int MAX_VALUE = Integer.MIN_VALUE;
+        for(int i=0; i<N; i++) {
+            if(A.get(i) < MIN_VALUE) {
+                MIN_VALUE = A.get(i);
+            }
+            if(A.get(i) > MAX_VALUE) {
+                MAX_VALUE = A.get(i);
+            }
+        }
+        System.out.println("Max: " + MAX_VALUE + " Min: " + MIN_VALUE);
+
+        int[] bucket_min = new int[N-1];
+        int[] bucket_max = new int[N-1];
+        int gap = (int) Math.ceil((MAX_VALUE - MIN_VALUE) / (N-1));
+        Arrays.fill(bucket_max, Integer.MIN_VALUE);
+        Arrays.fill(bucket_min, Integer.MAX_VALUE);
+
+        System.out.println("Gap: " + gap);
+
+        for(int i=0; i<N; i++) {
+            int ele = A.get(i);
+            int bucket_index = (int) Math.ceil((ele - MIN_VALUE) / gap);
+            bucket_index = bucket_index > 0 ? bucket_index - 1 : bucket_index;
+
+            System.out.println("Ele: " + ele + " Index: " + bucket_index);
+
+            if(ele > bucket_max[bucket_index]) {
+                bucket_max[bucket_index] = ele;
+            }
+
+            if(ele < bucket_min[bucket_index]) {
+                bucket_min[bucket_index] = ele;
+            }
+        }
+
+        printArr(bucket_min);
+        printArr(bucket_max);
+
+        return 0;
+    }
+
     public static void main(String[] args) {
-        Integer[] arr = {1, 5, 11};
+        Integer[] arr = {5, 7, 13, 2, 4, 1, 6};
+        // MaxConsGap.java
 
         final List<Integer> A = new ArrayList<Integer>(Arrays.asList(arr));
 
@@ -109,7 +156,9 @@ public class MaximumGap {
 
         MaximumGap mg = new MaximumGap();
 
-        System.out.println(mg.maximumGap(A));
+        // System.out.println(mg.maximumGapNew(A));
+        double val = (4 - 1) / 2;
+        System.out.println(val);
     }
 }
 

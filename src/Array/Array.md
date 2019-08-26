@@ -116,3 +116,66 @@ ans => 2 + 5 = 7
     } 
   
 
+## 3. First Missing Integer [https://www.interviewbit.com/problems/first-missing-integer/]
+
+
+### Pseudocode. 
+```java
+Find the length of the list if it is 1
+    then if first element is 1
+            return 2;
+    else:
+            return 1;
+
+Now iterate over the list element and find out the 
+bucketIndex for each Element
+
+BucketIndex:
+```java
+    public int findBucketIndex(int num, int N) {
+    if(num >= 1 && num <= N) {
+        return num - 1;
+    } else {
+        return -1;
+    }
+}        
+```
+
+```java
+for(int currentIndex = 0; currentIndex < N; currentIndex++) {
+    if bucketIndex == -1:
+    // Element value outside the range (1 to N):
+    arr[currentIndex] = 0;
+
+    else if bucketIndex == currentIndex:
+    // Element at right postion
+    skip
+    else if arr[bucketIndex] == arr[bucketIndex]:
+        arr[currentIndex] = 0;
+
+    else
+        while(currentIndex != bucketIndex && bucketIndex != -1): {
+            swap(arr, bucketIndex, currentIndex);
+            bucketIndex = findBucketIndex(arr[bucketIndex], N);
+        }
+        
+        if(bucketIndex == -1) {
+            arr[currentIndex] = 0;
+        }
+}
+
+/* Last iterate over the arr Element
+        if you find 0:
+            return i+1
+   
+   return N + 1; // All element at the Right Position
+*/
+
+for(int i=0; i<N; i++) {
+    if(list.get(i) == 0) {
+        missingInteger = i+1;
+        return missingInteger;
+    }
+}
+return N + 1;
+```

@@ -55,7 +55,7 @@ Solutions to the InterviewBit problems in Java
 |17| [Find Duplicate in Array](https://www.interviewbit.com/problems/find-duplicate-in-array/)      | [Java](./Programming/Array/FindDuplicate.java)  | _O(n)_         | _O(1)_          | Easy         |  |
 |18| [Max Distance](https://www.interviewbit.com/problems/max-distance/)      | [Java](./Programming/Array/MaxDistance.java)  | _O(n)_         | _O(n)_          | Medium         |  Bookmarked|
 |19| [Min Unsorted Subarray](https://www.interviewbit.com/problems/maximum-unsorted-subarray/)      | [Java](./Programming/Array/MinUnsortedArray.java)  | _O(n)_         | _O(n)_          | Medium         |  Bookmarked|
-|20| [Maximum Consecutive Gap](https://www.interviewbit.com/problems/maximum-consecutive-gap/)      | [Java](./Programming/Array/MaxConsGap.java)  | _O(n)_         | _O(n)_          | Medium         |  Bookmarked, PigeonHole Sorting using bucket method|
+|20| [Maximum Consecutive Gap](https://www.interviewbit.com/problems/maximum-consecutive-gap/)      | [Java](./src/Array/MaximumGap.java)  | _O(n)_         | _O(n)_          | Medium         |  Bookmarked, PigeonHole Sorting using bucket method|
 |21| [Rotate Matrix](https://www.interviewbit.com/problems/rotate-matrix/)      | [Java](./Programming/Array/RotateMatrix.java)  | _O(n*n)_         | _O(1)_          | Medium         |  Good Question|
 |22| [MAXSPPROD](https://www.interviewbit.com/problems/maxspprod/)      | [Java](./Programming/Array/SpecialProduct.java)  | _O(n)_         | _O(n)_          | Medium         |  Good Question|
 |23| [Next Permutation](https://www.interviewbit.com/problems/next-permutation/)      | [Java](./Programming/Array/NextPerm.java)  | _O(nlogn)_(only if already highest perm, else O(n + logn))         | _O(1)_          | Medium         |  Good Question, Analyse diff examples, Bookmarked|
@@ -104,13 +104,13 @@ Solutions to the InterviewBit problems in Java
 |3| [Rotated Array](https://www.interviewbit.com/problems/rotated-array/)      | [Java](./Programming/BinarySearch/RotateArray.java)  | _O(log(n))_         | _O(1)_          | Easy         |  Bookmarked |
 |4| [Matrix Median](https://www.interviewbit.com/problems/matrix-median/)      | [Java](./Programming/BinarySearch/MatrixMedian.java)  | _O(log(2^32)*r*log(c))_ = O(32 * r * log(c))         | _O(1)_          | Medium         |  Bookmarked |
 |5| [Matrix Search](https://www.interviewbit.com/problems/matrix-search/)      | [Java](./Programming/BinarySearch/MatrixSearch.java)  | _O(log(rc))_ = O(log(r) + log(c))         | _O(1)_          | Easy         |  Bookmarked |
-|6| [Sorted Insert Position](https://www.interviewbit.com/problems/sorted-insert-position/)      | [Java](./Programming/BinarySearch/SortedInsert.java)  | _O(log(n))_          | _O(1)_          | Easy         |   |
+|6| [Sorted Insert Position](https://www.interviewbit.com/problems/sorted-insert-position/)      | [Java](./src/BinarySearch/SortedInsert.java)  | _O(log(n))_          | _O(1)_          | Easy         |   |
 |7| [Implement Power Function](https://www.interviewbit.com/problems/implement-power-function/)      | [Java](./Programming/BinarySearch/PowerFunction.java)  | _O(log(power))_          | _O(1)_          | Easy         |  Handle Negative value carefully, Bookmarked |
 |8| [Rotated Sorted Array Search](https://www.interviewbit.com/problems/rotated-sorted-array-search/)      | [Java](./Programming/BinarySearch/RotatedArraySearch.java)  | _O(log(n))_          | _O(1)_          | Easy         |   |
 |9| [Search for a Range](https://www.interviewbit.com/problems/search-for-a-range/)      | [Java](./Programming/BinarySearch/SearchRange.java)  | _O(log(n))_          | _O(1)_          | Easy         |   |
 |10| [Painter's Partition Problem](https://www.interviewbit.com/problems/painters-partition-problem/)      | [Java](./Programming/BinarySearch/PainterPartition.java)  | _O(Nlog(sum(array)))_          | _O(1)_          | Medium         | Bookmarked, Example to use BS in monotonic functions   |
 |11| [Allocate Books](https://www.interviewbit.com/problems/allocate-books/)      | [Java](./Programming/BinarySearch/AllocateBooks.java)  | _O(Nlog(sum(array)))_          | _O(1)_          | Medium         | Bookmarked, Example to use BS in monotonic functions   |
-|12| [Median of Array](https://www.interviewbit.com/problems/median-of-array/)      | [Java](./Programming/BinarySearch/Median2Sorted.java)  | _O(log(m+n))_          | _O(1)_          | Hard         | Bookmarked   |
+|12| [Median of Array](https://www.interviewbit.com/problems/median-of-array/)      | [Java](./src/BinarySearch/Median2Sorted.java)  | _O(log(m+n))_          | _O(1)_          | Hard         | Bookmarked   |
 
 
 ## String
@@ -120,7 +120,7 @@ Solutions to the InterviewBit problems in Java
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 |1| [Palindrome String](https://www.interviewbit.com/problems/palindrome-string/)      | [Java](./Programming/String/Palindrome.java)  | _O(n)_         | _O(1)_          | Easy         |   |
 |2| [Longest Common Prefix](https://www.interviewbit.com/problems/longest-common-prefix/)      | [Java](./Programming/String/LongestCommonPrefix.java)  | _O(n*min(String Length))_         | _O(1)_          | Easy         |   |
-|3| [Count And Say](https://www.interviewbit.com/problems/count-and-say/)      | [Java](./Programming/String/CountAndSay.java)  | _O(n*max(String Length))_         | _O(1)_          | Easy         |   |
+|3| [Count And Say](https://www.interviewbit.com/problems/count-and-say/)      | [Java](./src/String/CountAndSay.java)  | _O(n*max(String Length))_         | _O(1)_          | Easy         |   |
 |4| [Minimum Characters required to make a String Palindromic](https://www.interviewbit.com/problems/minimum-characters-required-to-make-a-string-palindromic/)      | [Java](./Programming/String/MinCharsToPalindrome.java)  | _O(n)_         | _O(1)_          | Easy         |   |
 |5| [Longest Palindromic Substring](https://www.interviewbit.com/problems/longest-palindromic-substring/)      | [Java](./Programming/String/LongestPalindromeSubString.java)  | _O(n*n)_         | _O(1)_          | Medium         |  Bookmarked, 1 length is always palindrome |
 |6| [StrStr](https://www.interviewbit.com/problems/implement-strstr/)      | [Java](./Programming/String/StrStr.java)  | _O(n)_         | _O(m)_          | Medium         |  Bookmarked, KMP Algo |
@@ -138,7 +138,7 @@ Solutions to the InterviewBit problems in Java
 |18| [Justified Text](https://www.interviewbit.com/problems/justified-text/)      | [Java](./Programming/String/JustifiedText.java)  | _O(n*n)_         | _O(n)_          | HARD         | Bookmarked, Used Greedy Approach|
 |19| [ZigZag String](https://www.interviewbit.com/problems/zigzag-string/)      | [Java](./Programming/String/ZigZag.java)  | _O(n)_         | _O(1)_          | Medium         | Bookmarked|
 |20| [Pretty Json](https://www.interviewbit.com/problems/pretty-json/)      | [Java](./Programming/String/PrettyJson.java)  | _O(n)_         | _O(1)_          | Medium         | Bookmarked|
-|21| [Stringoholics](https://www.interviewbit.com/problems/stringoholics/)      | [Java](./Programming/String/Stringoholics.java)  | _O(n*m, n*maxNum)_         | _O(n+m)_ n is input array length, m is average size of each string          | HARD         | Bookmarked, Covers many concepts - KMP, LCM|
+|21| [Stringoholics](https://www.interviewbit.com/problems/stringoholics/)      | [Java](./src/String/Stringoholics.java)  | _O(n*m, n*maxNum)_         | _O(n+m)_ n is input array length, m is average size of each string          | HARD         | Bookmarked, Covers many concepts - KMP, LCM|
 
 
 ## BitManipulation
