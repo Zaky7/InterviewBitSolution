@@ -79,6 +79,10 @@ First Vowel A => (A, AN, ANG, ANGE, ANGER) = (6-1) => (n - index)
 Second Vowel B => (E, ER) = (6-4) => (n - index)
 ans => 2 + 5 = 7
 
+- Iterate over the String characters
+- If character isVowel then add (n - characterIndex to the result)
+- return the result
+
 #### Code
 
      public int solve(String A) {
@@ -119,16 +123,30 @@ ans => 2 + 5 = 7
 ### Pseudocode.
 
 ````java
-Find the length of the list if it is 1
+1. Find the length of the list if it is 1
     then if first element is 1
             return 2;
     else:
             return 1;
 
-Now iterate over the list element and find out the
-bucketIndex for each Element
+2. bucketIndex = findBucketIndex(list[0], list.size())
 
-BucketIndex:
+3. Now iterate over the list element and find out the
+bucketIndex for each Element.
+   if bucketIndex is -1:
+            element is not at its Position.
+   if bucketIndex = currentIndex:
+            element at right position continue
+   if arr[bucketIndex] = arr[currentIndex]
+            element at new index is same make currentIndex 0 duplicates
+   else:
+        // Current Index not equal to buckert Index
+        iterate until currentIndex != bucketIndex and bucketIndex != -1
+
+```
+
+
+BucketIndex Function:
 ```java
     public int findBucketIndex(int num, int N) {
     if(num >= 1 && num <= N) {
@@ -142,17 +160,15 @@ BucketIndex:
 ```java
 for(int currentIndex = 0; currentIndex < N; currentIndex++) {
     if bucketIndex == -1:
-    // Element value outside the range (1 to N):
-    arr[currentIndex] = 0;
-
+        // Element value outside the range (1 to N):
+        arr[currentIndex] = 0;
     else if bucketIndex == currentIndex:
-    // Element at right postion
-    skip
+            // Element at right postion
+            continue;
     else if arr[currentIndex] == arr[bucketIndex]:
         arr[currentIndex] = 0;
-
     else
-        while(currentIndex != bucketIndex && bucketIndex != -1): {
+        while(currentIndex != bucketIndex && bucketIndex != -1) {
             swap(arr, bucketIndex, currentIndex);
             bucketIndex = findBucketIndex(arr[bucketIndex], N);
         }
@@ -177,3 +193,22 @@ for(int i=0; i<N; i++) {
 }
 return N + 1;
 ```
+
+## 3. Numbers of length N and value less than K
+[https://www.interviewbit.com/problems/numbers-of-length-n-and-value-less-than-k/]
+
+#### Description:
+Given a set of digits (A) in sorted order, find how many numbers of length B are possible whose value is less than number C.
+
+```
+Input
+Array:    [0 1 2 5]
+Length B: 2
+
+Number C: 21
+
+Output: 5
+10, 11, 12, 15, 20 are possible
+```
+
+#### PseudCode:

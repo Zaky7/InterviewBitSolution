@@ -1,40 +1,39 @@
-import java.io.*;
+package bitmanipulation;
 
-// Run cmd: javac .\ReverseInteger.java ; java ReverseInteger
+
+
+// Explaination [https://stackoverflow.com/questions/38670747/reverse-bits-in-java-on]
+
 class ReverseInteger {
 
-  public static boolean isCurrentBitSet(int n) {
-    return (n & 1) != 0;
-  }
-
-  public static int setCurrentBit(int n, int pos) {
-    return n | (1 << pos);
-  }
-
-  public static String toBinaryString(int n) {
-    return String.format("%32s", Integer.toBinaryString(n)).replaceAll(" ", "0");
-  }
-
-  public static int reverseBits(int n) {
-    int pos = Integer.SIZE - 1;
-    int reverse = 0;
-
-    while (pos >= 0 && n != 0) {
-      // if current bit is 1, then set corresponding bit in result
-      if (isCurrentBitSet(n)) {
-        reverse = setCurrentBit(reverse, pos);
-      }
-
-      n >>= 1; // drop current bit (divide by 2)
-      pos--; // decrement shift by 1
-    }
-
-    return reverse;
+  public static String toBinaryString(long n) {
+    return String.format("%64s", Long.toBinaryString(n)).replaceAll(" ", "0");
   }
 
   public static void main(String[] args) {
-    int n = 4;
-    System.out.println(n + " in binary is " + toBinaryString(n));
-    System.out.println("On reversing bits " + toBinaryString(reverseBits(n)));
+    long n = 3;
+    long result = reverse(n);
+    System.out.println(n + " in binary is " + toBinaryString(result) + " Value: " + result);
   }
+
+  public static long reverse(long a) {
+    long result = 0;
+    int i = 31;
+
+    while (a > 0) {
+      // Calculating the last bit
+      long remainder = (a % 2);
+      // Now left shift by i position
+      remainder = remainder << i;
+      // Add to the result thus shifting the rightmost bit to i postion left
+      result += remainder;
+      // Decrement the i
+      i--;
+      // Right shift 1 for new bit
+      a = a >> 1;
+    }
+
+    return result;
+  }
+
 }

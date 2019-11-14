@@ -1,0 +1,184 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CompareVersions",
+            "request": "launch",
+            "mainClass": "String.CompareVersions",
+            "projectName": "InterviewBitSolution_812cfebc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestClass",
+            "request": "launch",
+            "mainClass": "String.FabellaTest.TestClass",
+            "projectName": "InterviewBitSolution_812cfebc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stringoholics",
+            "request": "launch",
+            "mainClass": "String.Stringoholics",
+            "projectName": "InterviewBitSolution_812cfebc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountAndSay",
+            "request": "launch",
+            "mainClass": "String.CountAndSay",
+            "projectName": "InterviewBitSolution_812cfebc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Median2Sorted",
+            "request": "launch",
+            "mainClass": "BinarySearch.Median2Sorted",
+            "projectName": "InterviewBitSolution_812cfebc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Median2Sorted",
+            "request": "launch",
+            "mainClass": "BinarySearch.Median2Sorted",
+            "projectName": "InterviewBitSolution_b26a4831"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortedInsert",
+            "request": "launch",
+            "mainClass": "BinarySearch.SortedInsert",
+            "projectName": "InterviewBitSolution_b26a4831"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchRange",
+            "request": "launch",
+            "mainClass": "BinarySearch.SearchRange",
+            "projectName": "InterviewBitSolution_b26a4831"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotatedArraySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch.RotatedArraySearch",
+            "projectName": "InterviewBitSolution_b26a4831"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MatrixSearch",
+            "request": "launch",
+            "mainClass": "BinarySearch.MatrixSearch",
+            "projectName": "InterviewBitSolution_b26a4831"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PowerOfFunction",
+            "request": "launch",
+            "mainClass": "BinarySearch.PowerOfFunction",
+            "projectName": "InterviewBitSolution_b26a4831"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AllocateBooks",
+            "request": "launch",
+            "mainClass": "BinarySearch.AllocateBooks",
+            "projectName": "InterviewBitSolution_b26a4831"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumGap",
+            "request": "launch",
+            "mainClass": "Array.MaximumGap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstMissingInteger",
+            "request": "launch",
+            "mainClass": "Array.FirstMissingInteger"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumLessThanK",
+            "request": "launch",
+            "mainClass": "Maths.NumLessThanK",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GraphPractice",
+            "request": "launch",
+            "mainClass": "DataStructure.Graphs.GraphPractice",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GraphPractice",
+            "request": "launch",
+            "mainClass": "DataStructure.Graph.GraphPractice",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Graph",
+            "request": "launch",
+            "mainClass": "DataStructure.Graph.Graph",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniqueGrid",
+            "request": "launch",
+            "mainClass": "Maths.UniqueGrid",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Trie",
+            "request": "launch",
+            "mainClass": "DataStructure.Trie.Trie",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PallindromePairs",
+            "request": "launch",
+            "mainClass": "Arrays.PallindromePairs",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateMatrix",
+            "request": "launch",
+            "mainClass": "Arrays.RotateMatrix",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstMissingInteger",
+            "request": "launch",
+            "mainClass": "Arrays.FirstMissingInteger",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Flip",
+            "request": "launch",
+            "mainClass": "Arrays.Flip",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubsetSum",
+            "request": "launch",
+            "mainClass": "Arrays.SubsetSum",
+            "projectName": "Programming_f96737e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NextPermutation",
+            "request": "launch",
+            "mainClass": "Arrays.NextPermutation",
+            "projectName": "Programming_f96737e3"
+        }
+    ]
+}
