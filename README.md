@@ -208,7 +208,7 @@ Solutions to the InterviewBit problems in Java
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 |1| [Simplify Directory Path](https://www.interviewbit.com/problems/simplify-directory-path/)      | [Java](./Programming/Stacks/SimplifyDirectory.java)  | _O(n)_         | _O(n)_          | Easy         |   |
 |2| [Redundant Braces](https://www.interviewbit.com/problems/redundant-braces/)      | [Java](./Programming/Stacks/RedundantBraces.java)  | _O(n)_         | _O(n)_          | Easy         |   |
-|3| [Nearest Smaller Element](https://www.interviewbit.com/problems/nearest-smaller-element/)      | [Java](./Programming/Stacks/NearestSmaller.java)  | _O(n)_         | _O(n)_          | Easy         |   |
+|3| [Nearest Smaller Element](https://www.interviewbit.com/problems/nearest-smaller-element/)      | [Java](./src/stacks/NearestSmaller.java)  | _O(n)_         | _O(n)_          | Easy         |   |
 |4| [Evaluate Expression](https://www.interviewbit.com/problems/evaluate-expression/)      | [Java](./Programming/Stacks/EvaluateExpression.java)  | _O(n)_         | _O(n)_          | Easy         |   |
 |5| [Min Stack](https://www.interviewbit.com/problems/min-stack/)      | [Java](./Programming/Stacks/MinStack.java)  | _O(1)_         | _O(1)_          | Easy         |  Bookmarked, Doing Min in O(1) space is good one|
 |6| [Largest Rectangle in Histogram](https://www.interviewbit.com/problems/largest-rectangle-in-histogram/)      | [Java](./Programming/Stacks/LargestRectangleInHistogram.java)  | _O(n)_         | _O(n)_          | Medium         |  Bookmarked, Do read brute force and think in terms of stack|

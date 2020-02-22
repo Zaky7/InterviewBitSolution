@@ -1,10 +1,11 @@
 package array;
 
-import Algorithm.Sorting.QuickSort;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+
+import algorithm.sorting.QuickSort;
 
 public class NextPermutation {
 
